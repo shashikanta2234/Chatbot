@@ -2,5 +2,6 @@ Flask
 Flask_Cors
 torch
 torchvision
+gunicorn
 torchaudio
 transformers==4.*
