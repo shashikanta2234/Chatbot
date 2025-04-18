@@ -66,6 +66,8 @@ footer a {
 .chatbot {
   max-width: 100em;
   overflow: hidden;
+  margin: auto;
+  text-align: center;
 }
 
 .chat-header {
@@ -126,7 +128,8 @@ option:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 80%;
+  margin: auto;
   }
 
 .chat-form textarea[type="text"] {
@@ -197,7 +200,7 @@ option:hover {
 /* ---------------- */
 /* Chatbot box message format*/
 .chat-messages {
-  height: 400px;
+  min-width: 200px;
   overflow-y: scroll;
   padding: 10px;
 }
@@ -259,6 +262,29 @@ option:hover {
 }
 
 .chatbot {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: stretchconsole.log("Application started.");
+console.log("Loaded styles.");
+console.log("Loaded chatbot box head styles.");
+console.log("Loaded chatbot box message format styles.");
+console.log("Loaded animation styles.");
+console.log("Loaded media queries for small screens.");
+console.log("Loaded general styles.");
+console.log("Loaded header styles.");
+console.log("Loaded main styles.");
+console.log("Loaded footer styles.");
+console.log("Loaded chatbot styles.");
+console.log("Loaded chat-form styles.");
+console.log("Loaded chat-messages styles.");
+console.log("Loaded user message styles.");
+console.log("Loaded aibot message styles.");
+console.log("Loaded error message styles.");
+console.log("Loaded loading animation styles.");
+console.log("Loaded spacer styles.");
+console.log("Loaded purple color styles.");;
+  justify-content: center;
   color: #272727;
   align-self: flex-end;
 }
@@ -318,7 +344,7 @@ option:hover {
 }
 
 .spacer {
-  min-height: 37em;
+  min-height: 10em;
 }
 
 .purple {
